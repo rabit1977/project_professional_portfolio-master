@@ -1,0 +1,28 @@
+{
+  "root": true,
+  "api": {
+    "projectId": "7dtkuqky",
+    "dataset": "production"
+  },
+  "project": {
+    "name": "backend_sanity_portfolio",
+    "title": "My Sanity Project"
+  },
+  "plugins": [
+    "@sanity/base",
+    "@sanity/default-layout",
+    "@sanity/default-login",
+    "@sanity/desk-tool"
+  ],
+  "env": {
+    "development": {
+      "plugins": ["@sanity/vision"]
+    }
+  },
+  "parts": [
+    {
+      "name": "part:@sanity/base/schema",
+      "path": "./schemas/schema"
+    }
+  ]
+}
