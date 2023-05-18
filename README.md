@@ -2,4 +2,4 @@
 
 # https://project-portfolios-ebibi.netlify.app/#home/
 
-![](assets/Profile.jpg)
+![](frontend_sanity-myportfolio/src/assets/Profile.jpg)
